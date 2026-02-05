@@ -1,0 +1,9 @@
+[project]
+name = "peterstestagent"
+version = "0.1"
+description = "peterstestagent agent"
+readme = "README.md"
+dependencies = [
+  "google-adk>=1.8.0",
+]
+

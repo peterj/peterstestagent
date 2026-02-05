@@ -1,0 +1,19 @@
+agentName: peterstestagent
+image: localhost:5001/peterstestagent:latest
+language: python
+framework: adk
+modelProvider: gemini
+modelName: gemini-2.0-flash
+description: ""
+telemetryEndpoint: https://telemetry.agentregistry.a.solo-agentic-demo.com/v1/traces
+mcpServers:
+    - type: registry
+      name: user-my-mcp-server
+      env:
+        - MCP_TRANSPORT_MODE=http
+        - HOST=0.0.0.0
+        - MCP_STATELESS_HTTP=true
+      registryURL: https://api.agentregistry.a.solo-agentic-demo.com
+      registryServerName: user/my-mcp-server
+      registryServerVersion: 0.1.0
+updatedAt: 2026-02-05T17:40:25.134266-05:00
