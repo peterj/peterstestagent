@@ -7,12 +7,12 @@ modelName: gemini-2.0-flash
 description: ""
 mcpServers:
     - type: registry
-      name: user-my-mcp-server
+      name: user-petersmcp
       env:
         - MCP_TRANSPORT_MODE=http
         - HOST=0.0.0.0
         - MCP_STATELESS_HTTP=true
       registryURL: http://172.19.0.4:8080
-      registryServerName: user/my-mcp-server
-      registryServerVersion: 0.1.0
-updatedAt: 2026-02-05T17:40:25.134266-05:00
+      registryServerName: user/petersmcp
+      registryServerVersion: 0.0.1
+updatedAt: 2026-02-10T14:25:44.319467-08:00
